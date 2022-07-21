@@ -1,0 +1,11 @@
+uuid: 284089f5-c44d-4241-a14f-8e479475b248
+langcode: en
+status: true
+dependencies: {  }
+id: lbb_all_issues_slideshow
+block_id: 'views_block:at_view_cover_page_slideshow-block_1'
+category: lbb_bc_content
+label: 'All issues slideshow'
+image_path: ''
+image_alt: ''
+weight: null
