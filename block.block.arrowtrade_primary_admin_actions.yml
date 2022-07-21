@@ -1,0 +1,20 @@
+uuid: 69ccff5c-53ab-4cec-bd50-198bf1a0fcba
+langcode: en
+status: true
+dependencies:
+  theme:
+    - arrowtrade
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: arrowtrade_primary_admin_actions
+theme: arrowtrade
+region: highlighted
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

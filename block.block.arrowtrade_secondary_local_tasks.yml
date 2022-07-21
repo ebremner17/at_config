@@ -1,0 +1,22 @@
+uuid: 382a4d91-0fb1-4db1-bfc0-0a1789edce64
+langcode: en
+status: true
+dependencies:
+  theme:
+    - arrowtrade
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: arrowtrade_secondary_local_tasks
+theme: arrowtrade
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }
