@@ -1,0 +1,14 @@
+uuid: ebbce5e3-4b85-46cd-9fe0-abc50944b3c5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: content_path_pattern
+label: 'Content path pattern'
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parent:url:path]/[node:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

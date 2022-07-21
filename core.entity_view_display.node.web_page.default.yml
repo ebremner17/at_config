@@ -1,0 +1,20 @@
+uuid: 5e4cd6c9-eff3-4e07-9670-d1e9d6085f14
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.web_page
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+id: node.web_page.default
+targetEntityType: node
+bundle: web_page
+mode: default
+content: {  }
+hidden:
+  links: true
