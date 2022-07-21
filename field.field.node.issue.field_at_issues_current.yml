@@ -1,0 +1,23 @@
+uuid: 010133b9-3997-4068-a167-672dec3b42b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_at_issues_current
+    - node.type.issue
+id: node.issue.field_at_issues_current
+field_name: field_at_issues_current
+entity_type: node
+bundle: issue
+label: Currrent
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,29 @@
+uuid: d447e243-59e6-41f8-b725-8497fdb87ba4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_at_issue_cover
+    - media.type.image
+    - node.type.issue
+id: node.issue.field_at_issue_cover
+field_name: field_at_issue_cover
+entity_type: node
+bundle: issue
+label: Cover
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: mt_cover
+field_type: entity_reference

@@ -1,0 +1,31 @@
+uuid: f6224bc9-9eed-4c19-a4f0-55685a2162a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.mt_cover.field_media_image_1
+    - image.style.large
+    - media.type.mt_cover
+  module:
+    - image
+id: media.mt_cover.default
+targetEntityType: media
+bundle: mt_cover
+mode: default
+content:
+  field_media_image_1:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: large
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

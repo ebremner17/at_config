@@ -1,0 +1,53 @@
+uuid: 6571ec85-73cc-4075-8653-0b94d86cd8f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.issue.field_at_issue_cover
+    - field.field.node.issue.field_at_issue_link
+    - field.field.node.issue.field_at_issues_current
+    - field.field.node.issue.field_at_issues_description
+    - node.type.issue
+  module:
+    - link
+    - user
+id: node.issue.default
+targetEntityType: node
+bundle: issue
+mode: default
+content:
+  field_at_issue_cover:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_at_issue_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_at_issues_description:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_at_issues_current: true

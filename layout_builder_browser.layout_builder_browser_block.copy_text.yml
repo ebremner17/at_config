@@ -1,0 +1,11 @@
+uuid: e575ad91-5cba-4b45-ad09-9e1b0022f378
+langcode: en
+status: true
+dependencies: {  }
+id: copy_text
+block_id: cbl_copy_text
+category: lbb_bc_content
+label: 'Copy text'
+image_path: /themes/arrowtrade/images/lbb/copytext.svg
+image_alt: 'Copy text'
+weight: -100

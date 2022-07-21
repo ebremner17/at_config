@@ -1,0 +1,13 @@
+uuid: 710e73c0-9646-4dc2-a57e-649945124296
+langcode: en
+status: true
+dependencies: {  }
+id: mt_cover
+label: Cover
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

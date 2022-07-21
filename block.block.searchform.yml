@@ -1,0 +1,21 @@
+uuid: 90c77901-d9b6-4d09-9e00-31d014899c60
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - arrowtrade
+id: searchform
+theme: arrowtrade
+region: footer
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: visible
+  provider: search
+  page_id: ''
+visibility: {  }

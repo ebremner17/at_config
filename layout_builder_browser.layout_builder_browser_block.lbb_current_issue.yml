@@ -1,0 +1,11 @@
+uuid: 0088773b-2c02-41ce-9fed-41bacadc85ae
+langcode: en
+status: true
+dependencies: {  }
+id: lbb_current_issue
+block_id: cbl_current_issue
+category: lbb_bc_content
+label: 'Current Issue'
+image_path: ''
+image_alt: ''
+weight: null

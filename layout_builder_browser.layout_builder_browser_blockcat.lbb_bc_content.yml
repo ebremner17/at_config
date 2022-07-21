@@ -1,0 +1,7 @@
+uuid: dc614d01-58a7-4168-8f31-1013b1e4eb32
+langcode: en
+status: true
+dependencies: {  }
+id: lbb_bc_content
+label: Content
+weight: null
